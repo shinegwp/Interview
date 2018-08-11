@@ -8,6 +8,17 @@ import java.util.Scanner;
  * @version 创建时间：2018年8月11日 下午7:00:15
  * @describe 果园有n堆苹果，每堆苹果的数量为ai，求总做往右数第x个苹果是哪一堆的 输入： 第一行一个数n 第二行n个数ai
  *           第三行一个数m,表示询问m次 第四行m个数xi
+ *           
+ *           例
+ *           输入：
+ *               5
+ *               2 7 3 4 9
+ *               3
+ *               1 25 11
+ *           输出：
+ *               1
+ *               5
+ *               3
  */
 public class Main2 {
 	public static void main(String[] args) {
